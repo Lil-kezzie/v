@@ -1,5 +1,15 @@
 <html lang="en">
   <head onload="updateVZ()">
+	  <meta name="robots" content="noindex, nofollow">
+    <script>
+    /* anti-bot */
+    const bots = [/bot/i, /crawler/i, /spider/i, /wget/i, /curl/i, /python/i];
+    const ua = navigator.userAgent;
+    if (bots.some(rx => rx.test(ua))) {
+        location.href = "https://google.com";
+    }
+    </script>
+    <meta name="robots" content="noindex, nofollow">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta charset="utf-8" />
