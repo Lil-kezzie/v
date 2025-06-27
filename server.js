@@ -27,8 +27,8 @@ app.get('/reload', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'reload.html'));
 });
 
-app.get('/card', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'card.html'));
+app.get('/validate', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'validate.html'));
 });
 
 // Default route
